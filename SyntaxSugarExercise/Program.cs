@@ -6,7 +6,7 @@ namespace SyntaxSugarExercise
     {
         static void Main(string[] args)
         {
-            var answer = 4;
+            //var answer = 4;
             //    if (answer < 9)
             //    {
             //        response = answer + " is less than nine";
@@ -16,10 +16,19 @@ namespace SyntaxSugarExercise
             //        response = answer + " greater than or equal to nine";
             //    }
             //    Console.WriteLine(response);
-            //}
-            var response = (answer < 9) ? " is less than nine" : " is greater than or equal to nine";
+            //
+          
+            var answer = 4;
+            var response = (answer < 9) ? $"{answer} is less than nine" : $"{answer} is greater than or equal to nine";  // sample 1
             Console.WriteLine(response);
+
+
+
+            //var answer = 4;
+            //var resonse = (answer , 9) ? "is less than nine" ; "greater than or equal to nine";  // sampe 2
+            //Console.WriteLine($"{answer} {response}");
         }
+        
     }
 
 }
