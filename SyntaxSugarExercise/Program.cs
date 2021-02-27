@@ -24,9 +24,9 @@ namespace SyntaxSugarExercise
 
 
 
-            //var answer = 4;
-            //var resonse = (answer , 9) ? "is less than nine" ; "greater than or equal to nine";  // sampe 2
-            //Console.WriteLine($"{answer} {response}");
+            var answerb = 10;
+            var responseb = (answerb < 9) ? "is less than nine" : "greater than or equal to nine";  // sample 2
+            Console.WriteLine($"{answerb} {responseb}");
         }
         
     }
